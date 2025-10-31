@@ -15,6 +15,7 @@ export default function HomeScreen() {
         <Text fontSize={fontSize} fontFamily="CalSansRegular">Perception</Text>
         <Text fontSize={fontSize} fontFamily="UbuntuRegular" fontStyle='italic'>ware</Text>
       </XStack>
+      <Text fontSize={12}  fontStyle='italic'>2025</Text>
       {/* <Text fontSize={16} fontFamily="UbuntuRegular" fontStyle='italic'>Be informed. Always.</Text> */}
       </YStack>
     </View>
