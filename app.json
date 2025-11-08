@@ -52,8 +52,8 @@
       "expo-web-browser"
     ],
     "experiments": {
-      "typedRoutes": true,
-      "baseUrl": "/perceptionware-site/"
+      "typedRoutes": true
+      // "baseUrl": "/perceptionware-site/"
     }
   }
 }

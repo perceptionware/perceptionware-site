@@ -2,7 +2,7 @@ import { Anchor, Text, Paragraph, View, XStack, YStack } from 'tamagui'
 import { Image } from 'expo-image';
 
 export default function HomeScreen() {
-  const fontSize = 48;
+  const fontSize = 80;
   return (
     <View flex={1} items="center" justify="center" background='white' >
       <YStack gap="$2" mb="$4" items="center">
@@ -15,7 +15,7 @@ export default function HomeScreen() {
         <Text fontSize={fontSize} fontFamily="CalSansRegular">Perception</Text>
         <Text fontSize={fontSize} fontFamily="UbuntuRegular" fontStyle='italic'>ware</Text>
       </XStack>
-      <Text fontSize={12}  fontStyle='italic'>2025</Text>
+      <Text fontSize={fontSize/4} fontStyle='italic'>2025</Text>
       {/* <Text fontSize={16} fontFamily="UbuntuRegular" fontStyle='italic'>Be informed. Always.</Text> */}
       </YStack>
     </View>
