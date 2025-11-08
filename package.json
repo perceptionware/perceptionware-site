@@ -13,7 +13,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "deploy": "gh-pages --nojekyll -d dist",
+    "deploy": "gh-pages --nojekyll -d dist -cname 'www.perceptionware.com'",
     "predeploy": "expo export -p web"
   },
   "jest": {
